@@ -1,5 +1,8 @@
 # Compiled python modules.
 *.pyc
+*.pth
+*.gz
+*.log
 
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
@@ -9,3 +12,8 @@
 *.npy
 *.npz
 *.txt
+
+wget-log
+
+venv/
+info_datasets.tar.gz.1
